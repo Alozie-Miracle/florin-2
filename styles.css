@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+.red{
+background-color: rgb(186, 39, 39);
+margin: 0;
+padding: 2%;
+height: 300px;
+}
+h1{
+    float:left;
+    color: white;
+}
+img{
+    width: 300px;
+    position: absolute;
+    left: 650px;
+    transform: rotate(25deg);
+    z-index: 0;
+}
+h2{
+    color: white;
+}
+.clear{
+    clear:both ;
+}
+hr{
+    border: 1px dashed black;
+}
+.white{
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    border: 0;
+    z-index: 1;
+    position: absolute;
+    width: 90%;
+}
+.skill{
+    color: brown;
+}
+.color{
+    position: relative;
+    top: 19rem;
+    z-index: 2;
+    padding: 5%;
+    background-color: rgb(186, 39, 39);
+}
+
+#experience{
+    position: relative;
+    top: 18rem;
+    padding: 5%;
+}
+#experience h2{
+    color: brown;
+}
+#hobbies{
+    position: relative;
+    top: 19rem;
+    padding: 5%;
+    background-color: rgb(186, 39, 39);
+}
+
+#email{
+    position: relative;
+    top: 20rem;
+    padding: 5%;
+}
+#email h2{
+    color: brown;
+}
+
+button{
+    width: 200px;
+    color: white;
+    background-color: brown;
+    border: none;
+    height: 30px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: deeppink;
+}
+input, textarea{
+    width: 40%;
+    height: 30px;
+}
